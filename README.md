@@ -15,9 +15,13 @@ The above syntax still allows for inter-container linking, but also allows for d
 
 
 
+
+
 Run and attach to a Mongo DB in a container called "tiovulndb": 
 
 **docker run -d --name tiovulndlr --link tiovulndb:mongo tiovulndlr**
+
+
 
 
 If you want to customize the configuration without editing the container, you can mount a configuration of your own using a syntax like this: 
