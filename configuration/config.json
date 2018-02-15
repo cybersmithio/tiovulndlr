@@ -1,0 +1,1 @@
+{"smtpSecure": true, "smtpPassword": "", "mongoConnectionString": "mongodb://tiovulndb/tiovulndb", "updateInterval": 60, "smtpServer": "localhost", "smtpUsername": "", "smtpPort": 25}
